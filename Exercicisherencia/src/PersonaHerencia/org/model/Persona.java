@@ -1,7 +1,7 @@
 package org.model;
 
 
-public class Persona {
+public abstract class Persona {
     private String email;
 
     private String telefon;
