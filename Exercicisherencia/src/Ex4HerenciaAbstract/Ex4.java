@@ -27,7 +27,12 @@ public class Ex4 {
         for (Figura figura : figures) {
             System.out.println(figura);
         }
+
         //fer una crida al seu mètode
+        
+        figures[0].metodeAbstracteNoFinal();
+
+        
         
         
     }
