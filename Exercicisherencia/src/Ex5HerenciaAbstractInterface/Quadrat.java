@@ -16,6 +16,7 @@ public class Quadrat extends FiguraGeometrica implements InterfaceOptions {
     public Quadrat(int longitudCostat) {
         super(longitudCostat, longitudCostat);
         this.longitudCostat = longitudCostat;
+        this.cost = cost;
         estableixArea();
         estableixPerimetre();
     }
